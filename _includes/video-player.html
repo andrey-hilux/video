@@ -1,0 +1,22 @@
+<style type="text/css">
+    div.git-hub--player {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background: url(https://andrey-hilux.github.io/pub/images/video-loader.gif) no-repeat 50% 50% / 70% 60%;
+    }
+
+    .git-hub--player iframe {
+        height: 37em;
+        width: 100%;
+    }
+</style>
+
+<div class="git-hub--player">
+    <iframe src="https://andrey-hilux.github.io/pub/apps/video-js/iframe.html#{{ include.url }}"
+        style="position: relative;padding: 7vh 0; " scrolling="no" allowfullscreen="" frameborder="0">
+    </iframe>
+</div>

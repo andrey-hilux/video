@@ -1,0 +1,14 @@
+# 
+/*
+/*/
+!/_includes/
+!.gitignore
+!favicon.ico
+!_config.yml
+!/.bkps/listfile.txt
+!/.github/
+!/docs/
+!/video/
+/video/poster.psd
+/video/vue-3-bugs/**
+!README.md
